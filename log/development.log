@@ -37910,3 +37910,561 @@ Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:03:36 
 
 
 Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-24 15:03:36 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.0ms)
+  Rendered products/index.html.erb within layouts/application (13.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 232ms (Views: 224.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:32 -0500
+
+
+Started GET "/products?utf8=%E2%9C%93&search=four&commit=Search" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"four", "commit"=>"Search"}
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%four'))[0m
+  Rendered products/_product.html.erb (0.3ms)
+  Rendered products/index.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 242ms (Views: 239.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:38 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:39 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:39 -0500
+
+
+Started GET "/products?utf8=%E2%9C%93&search=four+AND+five&commit=Search" for 127.0.0.1 at 2014-11-24 15:07:52 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"four AND five", "commit"=>"Search"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%four AND five'))[0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 247ms (Views: 245.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:53 -0500
+
+
+Started GET "/products?utf8=%E2%9C%93&search=one&commit=Search" for 127.0.0.1 at 2014-11-24 15:07:58 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"one", "commit"=>"Search"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%one'))[0m
+  Rendered products/_product.html.erb (0.6ms)
+  Rendered products/index.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 224ms (Views: 222.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 15:07:59 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-24 15:08:04 -0500
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/index.html.erb within layouts/application (5.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 220ms (Views: 218.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-24 15:08:05 -0500
