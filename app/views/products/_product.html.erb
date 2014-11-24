@@ -1,6 +1,6 @@
 <%= link_to product_path(product) do %>
 <div class="large-4 small-6 columns">
-  <img src="http://placehold.it/500x500&text=Product <%= product.name %>">
+  <img src="http://placehold.it/500x500&text=<%= product.name %>">
   <div class="panel">
     <h5><%= product.name%></h5>
     <h6 class="subheader">$<%= product.formatted_price%></h6>
