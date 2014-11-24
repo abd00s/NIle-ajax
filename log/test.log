@@ -1,0 +1,667 @@
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" text, "price_in_cents" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "reviews" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "comment" text, "product_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_digest" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255)) [0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141111024419')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141110213201')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141111003132')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141111021801')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:06:24.124152"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:06:24.124152"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:13:22.722718"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:13:22.722718"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (6.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:13:22.745508"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:13:22.745508"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:13:45.047065"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:13:45.047065"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:13:45.055864"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:13:45.055864"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:14:42.267217"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:14:42.267217"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:14:42.275168"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:14:42.275168"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:15:06.858753"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:15:06.858753"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:15:06.886474"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:15:06.886474"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:15:06.891467"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:15:06.891467"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:18:04.683063"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:04.683063"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:18:04.713000"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:04.713000"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:18:04.716277"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:04.716277"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:18:04.720152"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:04.720152"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:18:24.214597"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:24.214597"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:18:24.245141"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:24.245141"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:18:24.249376"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:24.249376"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:18:24.254018"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:18:24.254018"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:20:31.906969"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:20:31.906969"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:20:31.943140"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:20:31.943140"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:20:31.946238"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:20:31.946238"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:20:31.950742"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:20:31.950742"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:20:31.954809"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:20:31.954809"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:21:14.746880"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:14.746880"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:21:14.773495"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:14.773495"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:21:14.777727"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:14.777727"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:21:14.781462"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:14.781462"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:21:14.784862"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:14.784862"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:21:47.615698"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:47.615698"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:21:47.647976"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:47.647976"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:21:47.651516"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:47.651516"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:21:47.656893"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:47.656893"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:21:47.660789"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:21:47.660789"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:23:52.931896"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:23:52.931896"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:23:52.971264"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:23:52.971264"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:23:52.975798"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:23:52.975798"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:23:52.980447"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:23:52.980447"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:23:52.983338"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:23:52.983338"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:23:52.985661"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:23:52.985661"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:06.459845"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.459845"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:06.490112"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.490112"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:06.493983"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.493983"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:06.499612"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.499612"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:06.502747"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.502747"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:06.505386"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.505386"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:06.507808"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:06.507808"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:35.869563"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.869563"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:35.908174"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.908174"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:35.911533"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.911533"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:35.916194"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.916194"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:35.919959"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.919959"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:35.923103"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.923103"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:35.925747"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:35.925747"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:45.042033"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.042033"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:45.072615"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.072615"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:45.075779"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.075779"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:45.080402"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.080402"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:45.084509"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.084509"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:28:45.087619"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.087619"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:28:45.090096"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:28:45.090096"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:11.497743"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.497743"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:11.529967"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.529967"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:11.533132"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.533132"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:11.537103"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.537103"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:11.539951"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.539951"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:11.542426"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.542426"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:11.545464"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.545464"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:11.549535"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:11.549535"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:38.037113"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.037113"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:38.067362"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.067362"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:38.070562"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.070562"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:38.075306"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.075306"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:38.078837"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.078837"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:38.082475"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.082475"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:38.085997"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.085997"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:38.089497"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:38.089497"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:57.384819"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.384819"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:57.417781"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.417781"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:57.420954"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.420954"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:57.425502"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.425502"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:57.429408"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.429408"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:57.433138"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.433138"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:32:57.436338"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.436338"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:32:57.439648"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:32:57.439648"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:09.945436"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.945436"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:09.971481"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.971481"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:09.976810"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.976810"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:09.981996"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.981996"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:09.986542"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.986542"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:09.989884"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.989884"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:09.993778"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.993778"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:09.997281"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:09.997281"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:47.044485"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.044485"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:47.069941"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.069941"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:47.073849"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.073849"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:47.077993"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.077993"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:47.080532"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.080532"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:47.082875"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.082875"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:33:47.085329"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.085329"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:33:47.089383"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:33:47.089383"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:11.942108"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.942108"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:11.971880"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.971880"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:11.976240"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.976240"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:11.980339"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.980339"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:11.983102"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.983102"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:11.986071"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.986071"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:11.989637"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.989637"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:11.993926"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:11.993926"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:34.982320"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:34.982320"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:35.010509"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.010509"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:35.014578"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.014578"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:35.018983"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.018983"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:35.022174"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.022174"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:35.024601"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.024601"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:35.027182"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.027182"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:35.030207"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:35.030207"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:45.754956"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.754956"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:45.783693"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.783693"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:45.786971"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.786971"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:45.790930"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.790930"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:45.794041"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.794041"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:45.797876"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.797876"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-13 01:34:45.801233"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.801233"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price_in_cents", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-13 01:34:45.804487"], ["description", "My Product Description"], ["name", "My Product"], ["price_in_cents", 100], ["updated_at", "2014-11-13 01:34:45.804487"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m

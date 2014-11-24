@@ -1,0 +1,96 @@
+<p id="notice"><%= notice %></p>
+
+	<div class="row">
+		<hr>
+			<div class="large-2 columns">
+				<img src="http://placehold.it/400x300&text=[img]">
+				<br>
+				<img src="http://placehold.it/400x300&text=[img]">
+				<br>
+				<img src="http://placehold.it/400x300&text=[img]">
+				<br>
+				<img src="http://placehold.it/400x300&text=[img]">
+			</div>
+
+			<div class="large-5 columns">
+				<img src="http://placehold.it/400x500&text=PRODUCT IMAGE">
+			</div>
+			
+			<div class="large-5 columns">
+				<h4><%= @product.name %></h4>
+				<p><strong>$<%= @product.formatted_price %></strong> </p> 
+				<p><%= @product.description %></p>
+
+				<div class="panel">
+					<h5>Header</h5>
+					<h6 class="subheader">Praesent placerat dui tincidunt elit suscipit sed.</h6>
+					<a href="#" class="small button">Add to Cart</a>
+				</div>
+			</div>
+	</div>
+
+	<hr/>
+
+<b> Sort by: </b>
+<ul>
+	<li>
+		<%= @dir_arrow if @sort_by == "created_at" %>
+		<%= link_to "Date", "?sort_by=created_at&direction=#{@opposite_dir}" %>
+	</li>
+	<li>
+		<%= @dir_arrow if @sort_by == "comment" %>
+		<%= link_to "Comment", "?sort_by=comment&direction=#{@opposite_dir}" %>
+	</li>
+</ul>
+
+
+<% if current_user %>
+<% @product.reviews.all.each do |review| %>
+<div class="large-12 columns">
+	<h4><%= review.user.name %></h4>
+	<p> <%= review.comment %></p>
+	<p><em><%= review.created_at %></em> </p>
+</div>
+<%end%>
+
+<h4>New Review</h4>
+
+<%= form_for([@product, @review]) do |f| %>
+<% if @review.errors.any? %>
+<div id="error_explanation">
+	<h2><%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:</h2>
+
+	<ul>
+		<% @review.errors.full_messages.each do |msg| %>
+		<li><%= msg %></li>
+		<% end %>
+	</ul>
+</div>
+<% end %>
+
+<div class="field">
+	<%= f.label :comment %><br />
+	<%= f.text_area :comment %>
+</div>
+<div class="actions">
+	<%= f.submit %>
+</div>
+<% end %>
+
+<% else %>
+<p>Please <%= link_to "log in", new_session_path %> to add a review.</p>
+
+<% end %>
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Delete', product_path(@product), method: :delete %> |
+<%= link_to 'Home', products_path %>
+<div class="row">
+	<hr>
+	<div class="large-12 columns">
+		<h4>You might also like:</h4>
+		<img src="http://placehold.it/200x150&text=[img]">
+		<img src="http://placehold.it/200x150&text=[img]">
+		<img src="http://placehold.it/200x150&text=[img]">
+		<img src="http://placehold.it/200x150&text=[img]">
+	</div>
+</div>
