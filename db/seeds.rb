@@ -5,4 +5,23 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Product.create([{name: 'MacBook Air', description: 'Good shape bla bla bla', price_in_cents: '10000'}])
+User.destroy_all
+Product.destroy_all
+
+User.create!({
+  email: "example@bitmakerlabs.com",
+  name: "Example User",
+  password: "pass",
+  password_confirmation: "pass"
+  }
+)
+
+100.times do |i|
+
+Product.create({
+  name: "Product#{i}",
+  description: "Description#{i}",
+  price_in_cents: i
+  }
+)
+end

@@ -38,7 +38,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'ransack'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'kaminari'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
