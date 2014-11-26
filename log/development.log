@@ -56717,3 +56717,1780 @@ Processing by ProductsController#show as HTML
   Rendered products/_reviews.html.erb (2.9ms)
   Rendered products/show.html.erb within layouts/application (8.5ms)
 Completed 200 OK in 197ms (Views: 194.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:43:44 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (3.8ms)
+  Rendered products/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 222ms (Views: 217.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:43:45 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:44:00 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"NEWER AJAX REVIEW\r\n"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["comment", "NEWER AJAX REVIEW\r\n"], ["created_at", "2014-11-26 21:44:00.198040"], ["product_id", 121], ["updated_at", "2014-11-26 21:44:00.198040"], ["user_id", 6]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.1ms)
+  Rendered reviews/create.js.erb (7.8ms)
+Completed 200 OK in 25ms (Views: 15.4ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:44:47 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"non ajax review"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["comment", "non ajax review"], ["created_at", "2014-11-26 21:44:47.860917"], ["product_id", 121], ["updated_at", "2014-11-26 21:44:47.860917"], ["user_id", 6]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (3.7ms)
+  Rendered reviews/create.js.erb (5.1ms)
+Completed 200 OK in 18ms (Views: 10.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:44:59 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (2.7ms)
+  Rendered products/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 222ms (Views: 218.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:00 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O4e9gLO9XdFpho7ioW+8tZPZMkMQwMU+Y1NdVV0WSvE=", "review"=>{"comment"=>"actual non ajax review\r\n"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.8ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["comment", "actual non ajax review\r\n"], ["created_at", "2014-11-26 21:45:09.148490"], ["product_id", 121], ["updated_at", "2014-11-26 21:45:09.148490"], ["user_id", 6]]
+  [1m[35m (2.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 11ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/index.html.erb within layouts/application (23.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 261ms (Views: 258.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:09 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:10 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:10 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:10 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:10 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:45:11 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (3.3ms)
+  Rendered products/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 220ms (Views: 217.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:45:45 -0500
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O4e9gLO9XdFpho7ioW+8tZPZMkMQwMU+Y1NdVV0WSvE=", "review"=>{"comment"=>"ajax review again"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["comment", "ajax review again"], ["created_at", "2014-11-26 21:45:45.598509"], ["product_id", 121], ["updated_at", "2014-11-26 21:45:45.598509"], ["user_id", 6]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 13ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:45:45 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/index.html.erb within layouts/application (22.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Completed 200 OK in 243ms (Views: 240.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:45:46 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:45:51 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (16.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 222ms (Views: 220.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:45:53 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (4.0ms)
+  Rendered products/show.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 203ms (Views: 199.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:46:01 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"nope, now "}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["comment", "nope, now "], ["created_at", "2014-11-26 21:46:01.812590"], ["product_id", 121], ["updated_at", "2014-11-26 21:46:01.812590"], ["user_id", 6]]
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.7ms)
+  Rendered reviews/create.js.erb (7.8ms)
+Completed 200 OK in 23ms (Views: 15.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.1ms)
+  Rendered products/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 220ms (Views: 216.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:49:33 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:49:51 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"review with alerts"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["comment", "review with alerts"], ["created_at", "2014-11-26 21:49:51.275863"], ["product_id", 121], ["updated_at", "2014-11-26 21:49:51.275863"], ["user_id", 6]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (6.7ms)
+  Rendered reviews/create.js.erb (8.9ms)
+Completed 200 OK in 22ms (Views: 15.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 17:33:12 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>""}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (9.6ms)
+  Rendered reviews/create.js.erb (11.3ms)
+Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.2ms)
+  Rendered products/show.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 219ms (Views: 216.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:17 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:18 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 17:33:23 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.8ms)
+  Rendered products/show.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 220ms (Views: 216.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 17:33:24 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 17:33:27 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>""}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (7.6ms)
+  Rendered reviews/create.js.erb (8.9ms)
+Completed 200 OK in 21ms (Views: 13.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 17:33:32 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>""}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.8ms)
+  Rendered reviews/create.js.erb (6.9ms)
+Completed 200 OK in 16ms (Views: 10.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.4ms)
+  Rendered products/_review_form_errors.html.erb (0.9ms)
+  Rendered products/show.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 202ms (Views: 197.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:47 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 17:43:48 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 17:43:50 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>""}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (7.1ms)
+  Rendered products/_review_form_errors.html.erb (1.2ms)
+  Rendered reviews/create.js.erb (11.9ms)
+Completed 200 OK in 24ms (Views: 16.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 17:44:11 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"hala ammi"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["comment", "hala ammi"], ["created_at", "2014-11-26 22:44:11.828032"], ["product_id", 121], ["updated_at", "2014-11-26 22:44:11.828032"], ["user_id", 6]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (9.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (6.4ms)
+  Rendered reviews/create.js.erb (18.6ms)
+Completed 200 OK in 31ms (Views: 22.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/products/121/reviews" for 127.0.0.1 at 2014-11-26 17:46:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/products/121/reviews"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.6ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.7ms)
+
+
+Started GET "/products/121/reviews/1" for 127.0.0.1 at 2014-11-26 17:47:08 -0500
+Processing by ReviewsController#show as HTML
+  Parameters: {"product_id"=>"121", "id"=>"1"}
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT  "reviews".* FROM "reviews"  WHERE "reviews"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find Review with 'id'=1):
+  app/controllers/reviews_controller.rb:6:in `show'
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT  "reviews".* FROM "reviews"   ORDER BY "reviews"."id" DESC LIMIT 1[0m
+
+
+Started GET "/products/121/reviews/14" for 127.0.0.1 at 2014-11-26 17:47:39 -0500
+Processing by ReviewsController#show as HTML
+  Parameters: {"product_id"=>"121", "id"=>"14"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT  "reviews".* FROM "reviews"  WHERE "reviews"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered reviews/show.html.erb within layouts/application (24.2ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined method `edit_review_path' for #<#<Class:0x007fb4740cbbf8>:0x007fb46ea7e7f0>):
+    15:   <%= @review.user_id %>
+    16: </p>
+    17: 
+    18: <%= link_to 'Edit', edit_review_path(@review) %> |
+    19: <%= link_to 'Back', reviews_path %>
+  app/views/reviews/show.html.erb:18:in `_app_views_reviews_show_html_erb__4177842506124794139_70206463666580'
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/products/121/" for 127.0.0.1 at 2014-11-26 17:50:01 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (5.5ms)
+  Rendered products/_review_form_errors.html.erb (0.1ms)
+  Rendered products/show.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 207ms (Views: 203.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:01 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:01 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 17:50:02 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 18:05:50 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"kdekeewk"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["comment", "kdekeewk"], ["created_at", "2014-11-26 23:05:50.938381"], ["product_id", 121], ["updated_at", "2014-11-26 23:05:50.938381"], ["user_id", 6]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mReview Load (0.6ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (10.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (6.9ms)
+  Rendered reviews/create.js.erb (20.9ms)
+Completed 200 OK in 36ms (Views: 25.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/products/121/" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (9.2ms)
+  Rendered products/_review_form_errors.html.erb (0.1ms)
+  Rendered products/show.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 211ms (Views: 207.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:05:54 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 18:05:57 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"kekek"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["comment", "kekek"], ["created_at", "2014-11-26 23:05:57.918264"], ["product_id", 121], ["updated_at", "2014-11-26 23:05:57.918264"], ["user_id", 6]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (8.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (6.8ms)
+  Rendered reviews/create.js.erb (18.8ms)
+Completed 200 OK in 44ms (Views: 31.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/products/121/" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (8.0ms)
+  Rendered products/_review_form_errors.html.erb (0.1ms)
+  Rendered products/show.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 203ms (Views: 200.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 18:11:45 -0500
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 18:11:52 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"sdsdsdsd"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["comment", "sdsdsdsd"], ["created_at", "2014-11-26 23:11:52.670202"], ["product_id", 121], ["updated_at", "2014-11-26 23:11:52.670202"], ["user_id", 6]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (15.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (9.5ms)
+  Rendered reviews/create.js.erb (27.7ms)
+Completed 200 OK in 45ms (Views: 33.7ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 18:12:46 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"FOIWHFWE"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (1.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["comment", "FOIWHFWE"], ["created_at", "2014-11-26 23:12:46.224275"], ["product_id", 121], ["updated_at", "2014-11-26 23:12:46.224275"], ["user_id", 6]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/_reviews.html.erb (10.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/_reviews.html.erb (9.5ms)
+  Rendered reviews/create.js.erb (22.7ms)
+Completed 200 OK in 38ms (Views: 27.5ms | ActiveRecord: 4.0ms)
