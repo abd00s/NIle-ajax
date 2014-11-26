@@ -5,10 +5,10 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = if params[:search]
-      Product.where("LOWER(name) LIKE LOWER(?)", "%#{params[:search]}%").page(params[:page])
+      Product.where("LOWER(name) LIKE LOWER(?)", "%#{params[:search]}%")
     else
-      @products = Product.order('products.created_at DESC').page(params[:page])
-    end
+      Product.order('products.created_at DESC')
+    end.page(params[:page])
 
     respond_to do |format|
       format.html

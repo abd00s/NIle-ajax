@@ -1,7 +1,7 @@
-<% if params[:page] %>
-  $('#products').append('<%= j render(@products) %>');
-<% else %>  <%# FIRST PAGE CONDITION   or  opposite conditions by searaching params[:search]%>
+<% if params[:search] %>
   $('#products').html('<%= j render(@products) %>');
+<% else %> <%# or opposite [:page] %>
+  $('#products').append('<%= j render(@products) %>');
 <% end %>
 
 $('.pagination').replaceWith('<%= j paginate(@products) %>');

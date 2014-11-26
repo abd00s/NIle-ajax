@@ -53483,3 +53483,2878 @@ Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at
 
 
 Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-25 17:55:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 11:26:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35m (1.6ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (62.2ms)
+Completed 200 OK in 529ms (Views: 507.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 11:26:56 -0500
+
+
+Started GET "/products?page=2&_=1417019216225" for 127.0.0.1 at 2014-11-26 11:27:02 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"page"=>"2", "_"=>"1417019216225"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (30.9ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417019216226&page=3" for 127.0.0.1 at 2014-11-26 11:27:02 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216226", "page"=>"3"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (1.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (30.8ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216227&page=4" for 127.0.0.1 at 2014-11-26 11:27:03 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216227", "page"=>"4"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 18
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (30.7ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417019216228&page=5" for 127.0.0.1 at 2014-11-26 11:27:03 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216228", "page"=>"5"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 24
+  Rendered products/_product.html.erb (1.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (37.7ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216229&page=6" for 127.0.0.1 at 2014-11-26 11:27:04 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216229", "page"=>"6"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 30
+  Rendered products/_product.html.erb (1.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (31.9ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216230&page=7" for 127.0.0.1 at 2014-11-26 11:27:04 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216230", "page"=>"7"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 36
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (33.3ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216231&page=8" for 127.0.0.1 at 2014-11-26 11:27:05 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216231", "page"=>"8"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 42
+  Rendered products/_product.html.erb (1.5ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (40.6ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417019216232&page=9" for 127.0.0.1 at 2014-11-26 11:27:05 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216232", "page"=>"9"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 48
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (31.4ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216233&page=10" for 127.0.0.1 at 2014-11-26 11:27:05 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216233", "page"=>"10"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 54
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (32.6ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417019216234&page=11" for 127.0.0.1 at 2014-11-26 11:27:06 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216234", "page"=>"11"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 60
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (32.8ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216235&page=12" for 127.0.0.1 at 2014-11-26 11:27:06 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216235", "page"=>"12"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 66
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (32.4ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019216236&page=13" for 127.0.0.1 at 2014-11-26 11:27:07 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216236", "page"=>"13"}
+  [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 72
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (34.8ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417019216237&page=14" for 127.0.0.1 at 2014-11-26 11:27:07 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216237", "page"=>"14"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 78
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (34.7ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417019216238&page=15" for 127.0.0.1 at 2014-11-26 11:27:08 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216238", "page"=>"15"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 84
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (26.4ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417019216239&page=16" for 127.0.0.1 at 2014-11-26 11:27:09 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216239", "page"=>"16"}
+  [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 90
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (25.0ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417019216240&page=17" for 127.0.0.1 at 2014-11-26 11:27:09 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019216240", "page"=>"17"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 96
+  Rendered products/_product.html.erb (0.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (21.6ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 11:27:17 -0500
+
+
+Started GET "/products?search=96&_=1417019216241" for 127.0.0.1 at 2014-11-26 11:27:36 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"96", "_"=>"1417019216241"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (0.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%'))[0m
+  Rendered products/index.js.erb (7.1ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/products?search=96&_=1417019216242" for 127.0.0.1 at 2014-11-26 11:27:39 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"96", "_"=>"1417019216242"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (0.5ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%'))[0m
+  Rendered products/index.js.erb (6.4ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?search=96&_=1417019216243" for 127.0.0.1 at 2014-11-26 11:27:40 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"96", "_"=>"1417019216243"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (0.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%'))[0m
+  Rendered products/index.js.erb (4.4ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?search=96&_=1417019216244" for 127.0.0.1 at 2014-11-26 11:27:40 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"96", "_"=>"1417019216244"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (0.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%96%'))[0m
+  Rendered products/index.js.erb (4.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?search=product&_=1417019216245" for 127.0.0.1 at 2014-11-26 11:27:53 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"product", "_"=>"1417019216245"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (2.0ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (19.6ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?search=product&_=1417019216246" for 127.0.0.1 at 2014-11-26 11:28:07 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"product", "_"=>"1417019216246"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.8ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (18.0ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 11:28:11 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 212ms (Views: 210.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&search=product&commit=Search" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"product", "commit"=>"Search"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 201ms (Views: 199.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:20 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 11:28:21 -0500
+
+
+Started GET "/products?commit=Search&page=2&search=product&utf8=%E2%9C%93&_=1417019301261" for 127.0.0.1 at 2014-11-26 11:28:23 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"commit"=>"Search", "page"=>"2", "search"=>"product", "utf8"=>"✓", "_"=>"1417019301261"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (27.4ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417019301262&commit=Search&page=3&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:24 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301262", "commit"=>"Search", "page"=>"3", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (34.1ms)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417019301263&commit=Search&page=4&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:25 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301263", "commit"=>"Search", "page"=>"4", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 18
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (40.0ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417019301264&commit=Search&page=5&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:25 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301264", "commit"=>"Search", "page"=>"5", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 24
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (35.1ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417019301265&commit=Search&page=6&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:25 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301265", "commit"=>"Search", "page"=>"6", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 30
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (42.4ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019301266&commit=Search&page=7&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:26 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301266", "commit"=>"Search", "page"=>"7", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 36
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (46.5ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019301267&commit=Search&page=8&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:26 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301267", "commit"=>"Search", "page"=>"8", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 42
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (44.0ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019301268&commit=Search&page=9&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:27 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301268", "commit"=>"Search", "page"=>"9", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 48
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (39.3ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417019301269&commit=Search&page=10&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:27 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301269", "commit"=>"Search", "page"=>"10", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 54
+  Rendered products/_product.html.erb (1.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (35.8ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products?_=1417019301270&commit=Search&page=11&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:27 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301270", "commit"=>"Search", "page"=>"11", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 60
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (40.6ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417019301271&commit=Search&page=12&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301271", "commit"=>"Search", "page"=>"12", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 66
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (41.7ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417019301272&commit=Search&page=13&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301272", "commit"=>"Search", "page"=>"13", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 72
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (38.6ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417019301273&commit=Search&page=14&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301273", "commit"=>"Search", "page"=>"14", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 78
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (34.8ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417019301274&commit=Search&page=15&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301274", "commit"=>"Search", "page"=>"15", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 84
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (35.8ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417019301275&commit=Search&page=16&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301275", "commit"=>"Search", "page"=>"16", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 90
+  Rendered products/_product.html.erb (2.0ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (32.0ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417019301276&commit=Search&page=17&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301276", "commit"=>"Search", "page"=>"17", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 96
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (25.8ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417019301276&commit=Search&page=15&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:31 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"_"=>"1417019301276", "commit"=>"Search", "page"=>"15", "search"=>"product", "utf8"=>"✓"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 84[0m
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 217ms (Views: 215.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products?_=1417019301277&commit=Search&page=16&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:33 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301277", "commit"=>"Search", "page"=>"16", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 90
+  Rendered products/_product.html.erb (1.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (30.3ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417019301278&commit=Search&page=17&search=product&utf8=%E2%9C%93" for 127.0.0.1 at 2014-11-26 11:28:34 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417019301278", "commit"=>"Search", "page"=>"17", "search"=>"product", "utf8"=>"✓"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 96
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (26.6ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 11:28:37 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 209ms (Views: 208.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 14:41:40 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (2.1ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (2.6ms)
+  Rendered products/index.html.erb within layouts/application (48.8ms)
+Completed 200 OK in 364ms (Views: 345.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/products?page=2&_=1417019301279" for 127.0.0.1 at 2014-11-26 14:41:47 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"page"=>"2", "_"=>"1417019301279"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (30.9ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 14:41:52 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 248ms (Views: 245.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 14:41:53 -0500
+
+
+Started GET "/products?page=2&_=1417030913270" for 127.0.0.1 at 2014-11-26 14:41:55 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"page"=>"2", "_"=>"1417030913270"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (27.6ms)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417030913271&page=3" for 127.0.0.1 at 2014-11-26 14:42:05 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913271", "page"=>"3"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (22.8ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417030913272&page=4" for 127.0.0.1 at 2014-11-26 14:42:13 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913272", "page"=>"4"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 18
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (27.5ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417030913273&page=5" for 127.0.0.1 at 2014-11-26 15:16:28 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913273", "page"=>"5"}
+  [1m[35mProduct Load (2.3ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 24
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (40.1ms)
+Completed 200 OK in 53ms (Views: 42.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/products?_=1417030913274&page=6" for 127.0.0.1 at 2014-11-26 15:16:38 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913274", "page"=>"6"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 30
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (39.6ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417030913275&page=7" for 127.0.0.1 at 2014-11-26 15:16:39 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913275", "page"=>"7"}
+  [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 36
+  Rendered products/_product.html.erb (2.1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (42.8ms)
+Completed 200 OK in 49ms (Views: 46.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products?_=1417030913276&page=8" for 127.0.0.1 at 2014-11-26 15:16:40 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913276", "page"=>"8"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 42
+  Rendered products/_product.html.erb (1.6ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (38.4ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417030913277&page=9" for 127.0.0.1 at 2014-11-26 15:16:41 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913277", "page"=>"9"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 48
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (37.5ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417030913278&page=10" for 127.0.0.1 at 2014-11-26 15:16:41 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913278", "page"=>"10"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 54
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (38.3ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417030913279&page=11" for 127.0.0.1 at 2014-11-26 15:16:42 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913279", "page"=>"11"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 60
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (40.7ms)
+Completed 200 OK in 49ms (Views: 46.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417030913280&page=12" for 127.0.0.1 at 2014-11-26 15:16:42 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913280", "page"=>"12"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 66
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (47.2ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417030913281&page=13" for 127.0.0.1 at 2014-11-26 15:16:43 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913281", "page"=>"13"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 72
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (36.0ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417030913282&page=14" for 127.0.0.1 at 2014-11-26 15:16:43 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913282", "page"=>"14"}
+  [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 78
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (37.4ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/products?_=1417030913283&page=15" for 127.0.0.1 at 2014-11-26 15:16:43 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913283", "page"=>"15"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 84
+  Rendered products/_product.html.erb (2.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (40.6ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417030913284&page=16" for 127.0.0.1 at 2014-11-26 15:16:44 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913284", "page"=>"16"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 90
+  Rendered products/_product.html.erb (1.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (27.3ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417030913285&page=17" for 127.0.0.1 at 2014-11-26 15:16:44 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417030913285", "page"=>"17"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 96
+  Rendered products/_product.html.erb (0.9ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (25.6ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 15:22:00 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 243ms (Views: 241.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 15:22:01 -0500
+
+
+Started GET "/products?page=2&_=1417033321501" for 127.0.0.1 at 2014-11-26 15:22:02 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"page"=>"2", "_"=>"1417033321501"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (2.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (61.2ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417033321502&page=3" for 127.0.0.1 at 2014-11-26 15:22:03 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321502", "page"=>"3"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (2.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (64.2ms)
+Completed 200 OK in 75ms (Views: 71.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/products?search=product&_=1417033321503" for 127.0.0.1 at 2014-11-26 15:22:09 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"search"=>"product", "_"=>"1417033321503"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (16.2ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417033321504&page=2&search=product" for 127.0.0.1 at 2014-11-26 15:22:11 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321504", "page"=>"2", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (36.7ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417033321505&page=3&search=product" for 127.0.0.1 at 2014-11-26 15:22:12 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321505", "page"=>"3", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (1.8ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (45.7ms)
+Completed 200 OK in 55ms (Views: 52.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417033321506&page=4&search=product" for 127.0.0.1 at 2014-11-26 15:22:13 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321506", "page"=>"4", "search"=>"product"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 18
+  Rendered products/_product.html.erb (1.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (41.3ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417033321507&page=5&search=product" for 127.0.0.1 at 2014-11-26 15:22:13 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321507", "page"=>"5", "search"=>"product"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 24
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (39.4ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417033321508&page=6&search=product" for 127.0.0.1 at 2014-11-26 15:22:14 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321508", "page"=>"6", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 30
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (44.0ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417033321509&page=7&search=product" for 127.0.0.1 at 2014-11-26 15:22:14 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321509", "page"=>"7", "search"=>"product"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 36
+  Rendered products/_product.html.erb (3.3ms)
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (52.7ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/products?_=1417033321510&page=8&search=product" for 127.0.0.1 at 2014-11-26 15:22:15 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321510", "page"=>"8", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 42
+  Rendered products/_product.html.erb (2.2ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (50.5ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417033321511&page=9&search=product" for 127.0.0.1 at 2014-11-26 15:22:15 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321511", "page"=>"9", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 48
+  Rendered products/_product.html.erb (2.0ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (43.8ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417033321512&page=10&search=product" for 127.0.0.1 at 2014-11-26 15:22:15 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321512", "page"=>"10", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 54
+  Rendered products/_product.html.erb (2.3ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (44.3ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417033321513&page=11&search=product" for 127.0.0.1 at 2014-11-26 15:22:16 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321513", "page"=>"11", "search"=>"product"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 60
+  Rendered products/_product.html.erb (2.9ms)
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (55.8ms)
+Completed 200 OK in 67ms (Views: 62.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/products?_=1417033321514&page=12&search=product" for 127.0.0.1 at 2014-11-26 15:22:16 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321514", "page"=>"12", "search"=>"product"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 66
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (45.4ms)
+Completed 200 OK in 56ms (Views: 52.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products?_=1417033321515&page=13&search=product" for 127.0.0.1 at 2014-11-26 15:22:16 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321515", "page"=>"13", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 72
+  Rendered products/_product.html.erb (1.1ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (31.9ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?_=1417033321516&page=14&search=product" for 127.0.0.1 at 2014-11-26 15:22:17 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321516", "page"=>"14", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 78
+  Rendered products/_product.html.erb (2.4ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (42.7ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products?_=1417033321517&page=15&search=product" for 127.0.0.1 at 2014-11-26 15:22:17 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321517", "page"=>"15", "search"=>"product"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 84
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (40.5ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/products?_=1417033321518&page=16&search=product" for 127.0.0.1 at 2014-11-26 15:22:18 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321518", "page"=>"16", "search"=>"product"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 90
+  Rendered products/_product.html.erb (1.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (37.5ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417033321519&page=17&search=product" for 127.0.0.1 at 2014-11-26 15:22:18 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321519", "page"=>"17", "search"=>"product"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%')) LIMIT 6 OFFSET 96
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"  WHERE (LOWER(name) LIKE LOWER('%product%'))[0m
+  Rendered products/index.js.erb (37.5ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 15:28:48 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 271ms (Views: 268.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 15:29:09 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 234ms (Views: 232.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 15:29:12 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 215ms (Views: 213.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?page=2&_=1417033321520" for 127.0.0.1 at 2014-11-26 15:29:16 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"page"=>"2", "_"=>"1417033321520"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (31.5ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417033321521&page=3" for 127.0.0.1 at 2014-11-26 15:29:16 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417033321521", "page"=>"3"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (1.5ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (36.1ms)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (1.8ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/index.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 269ms (Views: 261.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:51 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:52 -0500
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2014-11-26 16:10:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 224ms (Views: 223.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-11-26 16:10:55 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O4e9gLO9XdFpho7ioW+8tZPZMkMQwMU+Y1NdVV0WSvE=", "email"=>"example@bitmakerlabs.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'example@bitmakerlabs.com' LIMIT 1
+Redirected to http://localhost:3000/products
+Completed 302 Found in 108ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:10:55 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/index.html.erb within layouts/application (18.0ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 236ms (Views: 232.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:10:56 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:10:58 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 51ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+...r([@product, @review]), remote: true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.1ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:10:58 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+...r([@product, @review]), remote: true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:11:33 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/index.html.erb within layouts/application (19.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Completed 200 OK in 215ms (Views: 213.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:11:34 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:11:38 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+...r([@product, @review]), remote: :true do |f| @output_buffer....
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:11:38 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+...r([@product, @review]), remote: :true do |f| @output_buffer....
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected tLABEL
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/index.html.erb within layouts/application (18.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 253ms (Views: 251.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:04 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:12:05 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:12:06 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:12:06 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (1.1ms)
+  Rendered products/index.html.erb within layouts/application (20.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Completed 200 OK in 241ms (Views: 238.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:37 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:15:43 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected ':', expecting keyword_end
+...form_for([@product, @review]) :remote => true do |f| @output...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected ':', expecting keyword_end
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:15:43 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected ':', expecting keyword_end
+...form_for([@product, @review]) :remote => true do |f| @output...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected ':', expecting keyword_end
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (18.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 224ms (Views: 221.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:54 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:15:55 -0500
+
+
+Started GET "/products?page=2&_=1417036555057" for 127.0.0.1 at 2014-11-26 16:15:58 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"page"=>"2", "_"=>"1417036555057"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 6
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (33.5ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417036555058&page=3" for 127.0.0.1 at 2014-11-26 16:15:59 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555058", "page"=>"3"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 12
+  Rendered products/_product.html.erb (1.6ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (29.4ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417036555059&page=4" for 127.0.0.1 at 2014-11-26 16:15:59 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555059", "page"=>"4"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 18
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (27.8ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products?_=1417036555060&page=5" for 127.0.0.1 at 2014-11-26 16:16:07 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555060", "page"=>"5"}
+  [1m[35mProduct Load (2.1ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 24
+  Rendered products/_product.html.erb (1.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (36.9ms)
+Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/products?_=1417036555061&page=6" for 127.0.0.1 at 2014-11-26 16:16:10 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555061", "page"=>"6"}
+  [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 30
+  Rendered products/_product.html.erb (1.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (44.7ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/products?_=1417036555062&page=7" for 127.0.0.1 at 2014-11-26 16:16:11 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555062", "page"=>"7"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 36
+  Rendered products/_product.html.erb (1.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (39.4ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417036555063&page=8" for 127.0.0.1 at 2014-11-26 16:16:11 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555063", "page"=>"8"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 42
+  Rendered products/_product.html.erb (1.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (38.4ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?_=1417036555064&page=9" for 127.0.0.1 at 2014-11-26 16:16:13 -0500
+Processing by ProductsController#index as JS
+  Parameters: {"_"=>"1417036555064", "page"=>"9"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 48
+  Rendered products/_product.html.erb (2.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered products/index.js.erb (43.0ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:16:29 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:16:29 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:97: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:17:22 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (18.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Completed 200 OK in 230ms (Views: 228.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:17:24 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:81: syntax error, unexpected keyword_else, expecting end-of-input
+'.freeze; else 
+              ^):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:81: syntax error, unexpected keyword_else, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:17:24 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:81: syntax error, unexpected keyword_else, expecting end-of-input
+'.freeze; else 
+              ^):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:81: syntax error, unexpected keyword_else, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/products/120" for 127.0.0.1 at 2014-11-26 16:17:35 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 120]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:98: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:98: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started GET "/products/120" for 127.0.0.1 at 2014-11-26 16:17:35 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 120]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:98: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:98: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:18:15 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/index.html.erb within layouts/application (18.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 215ms (Views: 213.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:18:18 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mReview Load (0.7ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?  [["product_id", 121]]
+  Rendered products/show.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 232ms (Views: 227.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:19:15 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (17.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 228ms (Views: 226.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:19:21 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:82: syntax error, unexpected keyword_else, expecting end-of-input
+'.freeze; else 
+              ^):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:82: syntax error, unexpected keyword_else, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:19:21 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:82: syntax error, unexpected keyword_else, expecting end-of-input
+'.freeze; else 
+              ^):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:82: syntax error, unexpected keyword_else, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (22.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Completed 200 OK in 231ms (Views: 229.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:37 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:37 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:37 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-26 16:20:43 -0500
+Processing by ProductsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/index.html.erb within layouts/application (28.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 240ms (Views: 237.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:20:44 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:20:52 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:99: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:99: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:20:52 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+...@product, @review]), :remote => true do |f| @output_buffer.s...
+...                               ^
+/Users/abdoos/Documents/Programming/Bitmaker/Nile-ajax/app/views/products/show.html.erb:99: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/products/show.html.erb:58: syntax error, unexpected =>, expecting keyword_end
+  app/views/products/show.html.erb:99: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/abdoos/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-26 16:29:00 -0500
+Processing by ProductsController#index as HTML
+  [1m[35m (1.6ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"   ORDER BY products.created_at DESC LIMIT 6 OFFSET 0[0m
+  Rendered products/_product.html.erb (0.9ms)
+  Rendered products/index.html.erb within layouts/application (22.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Completed 200 OK in 237ms (Views: 228.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-26 16:29:01 -0500
+
+
+Started GET "/products/121" for 127.0.0.1 at 2014-11-26 16:29:03 -0500
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 121]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."product_id" = ?[0m  [["product_id", 121]]
+  Rendered products/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 207ms (Views: 204.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/products/121/reviews" for 127.0.0.1 at 2014-11-26 16:30:09 -0500
+Processing by ReviewsController#create as JS
+  Parameters: {"utf8"=>"✓", "review"=>{"comment"=>"new review with ajax"}, "commit"=>"Create Review", "product_id"=>"121"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 121]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "reviews" ("comment", "created_at", "product_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["comment", "new review with ajax"], ["created_at", "2014-11-26 21:30:09.369059"], ["product_id", 121], ["updated_at", "2014-11-26 21:30:09.369059"], ["user_id", 6]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  Rendered reviews/create.js.erb (0.6ms)
+Completed 200 OK in 19ms (Views: 6.1ms | ActiveRecord: 4.2ms)
