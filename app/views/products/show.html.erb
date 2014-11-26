@@ -45,13 +45,9 @@
 
 
 <% if current_user %>
-<% @product.reviews.all.each do |review| %>
-<div class="large-12 columns panel">
-	<h4><%= review.user.name %></h4>
-	<p> <%= review.comment %></p>
-	<p><em><%= review.created_at %></em> </p>
+<div class="large-12 columns" id="review-list">
+	<%= render partial: 'reviews' %>
 </div>
-<%end%>
 
 <h4>New Review</h4>
 

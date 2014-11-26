@@ -1,0 +1,7 @@
+<% @product.reviews.all.each do |review| %>
+<div class="large-12 columns panel">
+  <h4><%= review.user.name %></h4>
+  <p> <%= review.comment %></p>
+  <p><em><%= review.created_at %></em> </p>
+</div>
+<%end%>
